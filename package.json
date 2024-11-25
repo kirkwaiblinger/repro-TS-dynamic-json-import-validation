@@ -1,0 +1,11 @@
+{
+    "scripts": {
+        "build": "tsc -b",
+        "runCjs": "node dist/importJsonCjs.cjs",
+        "runMjs": "node dist/importJsonEsm.mjs"
+    },
+    "devDependencies": {
+        "@types/node": "^22.9.3",
+        "typescript": "5.7.2"
+    }
+}
